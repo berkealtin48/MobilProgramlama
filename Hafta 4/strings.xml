@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İstanbul"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/imgIstanbul1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/istanbul1"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayasofya, İstanbul'un en önemli tarihi yapılarından biridir."
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/imgIstanbul2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/istanbul2"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boğaz, İstanbul’u Avrupa ve Asya olarak ikiye ayırır."
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/imgIstanbul3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/istanbul3"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Galata Kulesi, İstanbul’un simgelerinden biridir."
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>
